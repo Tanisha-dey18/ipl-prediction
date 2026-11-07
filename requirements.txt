@@ -1,0 +1,9 @@
+# Libraries for the IPL match winner prediction project
+pandas          # loading and cleaning tables of data
+numpy           # number crunching (pandas uses it)
+scikit-learn    # Logistic Regression, Random Forest, train/test split, accuracy
+xgboost         # the XGBoost model
+streamlit       # turns a Python script into a web app
+joblib          # saves trained models to files and loads them back
+matplotlib      # simple charts to compare the models
+seaborn         # nicer-looking charts, built on top of matplotlib

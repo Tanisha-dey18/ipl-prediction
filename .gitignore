@@ -1,0 +1,19 @@
+# Python virtual environment (each person creates their own)
+venv/
+__pycache__/
+*.pyc
+
+# Dataset: download it from Kaggle yourself (see README).
+# Not committed because of its size and Kaggle's licence terms.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models are created by run_all.py
+models/*.pkl
+
+# Local editor / tool settings
+.claude/
+.vscode/
+.idea/
